@@ -106,5 +106,13 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="img\La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa.png" />
+    <Content Include="img\La-Granja-Real-Food-Chicken-1.2-Pollo-a-la-Brasa.png" />
+    <Content Include="img\La-Granja-Real-Food-Chicken-1.4-de-Pollo-a-la-Brasa-600x600.png" />
+    <Content Include="img\La-Granja-Real-Food-Chicken-Jarra-de-Chicha-Morada.png" />
+    <Content Include="img\La-Granja-Real-Food-Chicken-Torta-de-Chocolate-600x600.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
