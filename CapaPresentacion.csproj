@@ -104,6 +104,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CartaPolleria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CartaPolleria.Designer.cs">
+      <DependentUpon>CartaPolleria.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExploradorDeProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -130,6 +136,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CartaPolleria.resx">
+      <DependentUpon>CartaPolleria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ExploradorDeProveedores.resx">
       <DependentUpon>ExploradorDeProveedores.cs</DependentUpon>
     </EmbeddedResource>
