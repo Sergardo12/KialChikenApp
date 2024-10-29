@@ -110,6 +110,12 @@
     <Compile Include="CartaPolleria.Designer.cs">
       <DependentUpon>CartaPolleria.cs</DependentUpon>
     </Compile>
+    <Compile Include="ComprobanteDeVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ComprobanteDeVenta.Designer.cs">
+      <DependentUpon>ComprobanteDeVenta.cs</DependentUpon>
+    </Compile>
     <Compile Include="ExploradorDeProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +144,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CartaPolleria.resx">
       <DependentUpon>CartaPolleria.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ComprobanteDeVenta.resx">
+      <DependentUpon>ComprobanteDeVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ExploradorDeProveedores.resx">
       <DependentUpon>ExploradorDeProveedores.cs</DependentUpon>

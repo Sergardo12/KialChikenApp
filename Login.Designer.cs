@@ -115,10 +115,11 @@
             this.guna2HtmlLabel1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
             this.guna2HtmlLabel1.Location = new System.Drawing.Point(73, 92);
             this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(200, 41);
+            this.guna2HtmlLabel1.Size = new System.Drawing.Size(157, 32);
             this.guna2HtmlLabel1.TabIndex = 11;
             this.guna2HtmlLabel1.Text = "Inicia sesión";
             this.guna2HtmlLabel1.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
+            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
             // 
             // guna2GradientPanel1
             // 
@@ -193,7 +194,7 @@
             this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel3.Location = new System.Drawing.Point(481, 54);
             this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(267, 76);
+            this.guna2HtmlLabel3.Size = new System.Drawing.Size(215, 60);
             this.guna2HtmlLabel3.TabIndex = 16;
             this.guna2HtmlLabel3.Text = "CHICKEN";
             // 
@@ -205,7 +206,7 @@
             this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel2.Location = new System.Drawing.Point(354, 31);
             this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(121, 76);
+            this.guna2HtmlLabel2.Size = new System.Drawing.Size(99, 60);
             this.guna2HtmlLabel2.TabIndex = 17;
             this.guna2HtmlLabel2.Text = "KIAL";
             // 

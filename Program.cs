@@ -16,7 +16,7 @@ namespace KialChikenApp
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Insumos());
+            Application.Run(new ComprobanteDeVenta());
         }
     }
 }

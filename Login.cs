@@ -25,6 +25,11 @@ namespace KialChikenApp
             guna2HtmlLabel3.Parent = guna2PictureBox1;
             guna2HtmlLabel3.BackColor = Color.Transparent;
         }
+
+        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
     
     
