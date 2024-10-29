@@ -36,5 +36,10 @@ namespace KialChikenApp
         {
 
         }
+
+        private void CartaPolleria_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

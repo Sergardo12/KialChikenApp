@@ -93,6 +93,16 @@ namespace KialChikenApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap fondo_papas_fritas {
+            get {
+                object obj = ResourceManager.GetObject("fondo papas fritas", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FondoMadera {
             get {
                 object obj = ResourceManager.GetObject("FondoMadera", resourceCulture);
