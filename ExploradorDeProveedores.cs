@@ -298,5 +298,15 @@ namespace KialChikenApp
 
             MessageBox.Show("Proveedor no encontrado.");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void cmbServicio_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
