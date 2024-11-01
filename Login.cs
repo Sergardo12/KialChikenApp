@@ -7,11 +7,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Runtime.InteropServices;
 
 namespace KialChikenApp
 {
     public partial class Login : Form
     {
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
         public Login()
         {
             InitializeComponent();
@@ -19,16 +24,29 @@ namespace KialChikenApp
 
         private void Login_Load(object sender, EventArgs e)
         {
-            guna2HtmlLabel2.Parent = guna2PictureBox1;
-            guna2HtmlLabel2.BackColor = Color.Transparent;
-
-            guna2HtmlLabel3.Parent = guna2PictureBox1;
-            guna2HtmlLabel3.BackColor = Color.Transparent;
+          
         }
 
         private void guna2HtmlLabel1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void guna2PictureBox1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void guna2GradientPanel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
     
