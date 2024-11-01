@@ -121,8 +121,8 @@
   <data name="Facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Facebook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TikTok" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\TikTok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Polleria" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\Polleria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Password" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Password.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,22 +130,23 @@
   <data name="Close" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\Close.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FondoMadera" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\FondoMadera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="User Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\User Male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  
   <data name="La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CloseWhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\img\CloseWhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Polleria" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\Polleria.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="TikTok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\TikTok.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="User Male" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\img\User Male.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="FondoMadera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\FondoMadera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="fondo papas fritas" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\fondo papas fritas.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\img\La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

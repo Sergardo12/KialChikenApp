@@ -93,16 +93,6 @@ namespace KialChikenApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap fondo_papas_fritas {
-            get {
-                object obj = ResourceManager.GetObject("fondo papas fritas", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap FondoMadera {
             get {
                 object obj = ResourceManager.GetObject("FondoMadera", resourceCulture);
@@ -116,6 +106,16 @@ namespace KialChikenApp.Properties {
         internal static System.Drawing.Bitmap La_Granja_Real_Food_Chicken_1_Pollo_a_la_Brasa {
             get {
                 object obj = ResourceManager.GetObject("La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap La_Granja_Real_Food_Chicken_1_Pollo_a_la_Brasa1 {
+            get {
+                object obj = ResourceManager.GetObject("La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
