@@ -28,268 +28,259 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RequerimientoCompra));
+            this.pcbxFondoMadera = new System.Windows.Forms.PictureBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GroupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnRegistrarRequerimientoCompra = new System.Windows.Forms.Button();
+            this.btnAnularRequerimientoCompra = new System.Windows.Forms.Button();
+            this.btnNuevoRequerimientoCompra = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.pcbcBotonCerrar = new System.Windows.Forms.PictureBox();
+            this.btnRegresarRequrimientoCompra = new System.Windows.Forms.Button();
+            this.btnListoRequerimientoCompra = new System.Windows.Forms.Button();
+            this.btnCancelarRequerimientoCompra = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbxFondoMadera)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbcBotonCerrar)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2GroupBox1
+            // pcbxFondoMadera
             // 
-            this.guna2GroupBox1.Controls.Add(this.guna2ComboBox1);
-            this.guna2GroupBox1.Controls.Add(this.guna2TextBox2);
-            this.guna2GroupBox1.Controls.Add(this.guna2TextBox1);
-            this.guna2GroupBox1.Controls.Add(this.dateTimePicker1);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel3);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel2);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(187)))), ((int)(((byte)(91)))));
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(10)))), ((int)(((byte)(6)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(25, 36);
-            this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(653, 291);
-            this.guna2GroupBox1.TabIndex = 4;
-            this.guna2GroupBox1.Text = "Datos de los insumos:";
+            this.pcbxFondoMadera.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pcbxFondoMadera.Image = ((System.Drawing.Image)(resources.GetObject("pcbxFondoMadera.Image")));
+            this.pcbxFondoMadera.Location = new System.Drawing.Point(0, 0);
+            this.pcbxFondoMadera.Name = "pcbxFondoMadera";
+            this.pcbxFondoMadera.Size = new System.Drawing.Size(1000, 800);
+            this.pcbxFondoMadera.TabIndex = 0;
+            this.pcbxFondoMadera.TabStop = false;
+            this.pcbxFondoMadera.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pcbxFondoMadera_MouseDown);
             // 
-            // guna2HtmlLabel1
+            // label1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(23, 55);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(75, 23);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "Nombre:";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(255, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(488, 40);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Requerimientos para compra";
             // 
-            // guna2HtmlLabel2
+            // groupBox1
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(23, 104);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(90, 23);
-            this.guna2HtmlLabel2.TabIndex = 1;
-            this.guna2HtmlLabel2.Text = "Cantidad:";
-            // 
-            // guna2HtmlLabel3
-            // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(29, 157);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(69, 23);
-            this.guna2HtmlLabel3.TabIndex = 2;
-            this.guna2HtmlLabel3.Text = "Unidad:";
-            // 
-            // guna2HtmlLabel4
-            // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(32, 209);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(60, 23);
-            this.guna2HtmlLabel4.TabIndex = 3;
-            this.guna2HtmlLabel4.Text = "Fecha:\r\n";
+            this.groupBox1.Controls.Add(this.dateTimePicker1);
+            this.groupBox1.Controls.Add(this.textBox2);
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Location = new System.Drawing.Point(25, 105);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(611, 323);
+            this.groupBox1.TabIndex = 2;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Datos de los insumos:";
             // 
             // dateTimePicker1
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(120, 209);
+            this.dateTimePicker1.Location = new System.Drawing.Point(248, 189);
             this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 28);
-            this.dateTimePicker1.TabIndex = 4;
+            this.dateTimePicker1.Size = new System.Drawing.Size(224, 28);
+            this.dateTimePicker1.TabIndex = 7;
             // 
-            // guna2TextBox1
+            // textBox2
             // 
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(104, 56);
-            this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(175, 22);
-            this.guna2TextBox1.TabIndex = 5;
+            this.textBox2.Location = new System.Drawing.Point(248, 114);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(224, 28);
+            this.textBox2.TabIndex = 5;
             // 
-            // guna2TextBox2
+            // textBox1
             // 
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(120, 105);
-            this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(175, 22);
-            this.guna2TextBox2.TabIndex = 6;
+            this.textBox1.Location = new System.Drawing.Point(248, 60);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(224, 28);
+            this.textBox1.TabIndex = 4;
             // 
-            // guna2ComboBox1
+            // label5
             // 
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "Kg",
-            "Gr",
-            "Uni",
-            "Lt",
-            "Ml"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(120, 157);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(175, 36);
-            this.guna2ComboBox1.TabIndex = 7;
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(29, 195);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(67, 21);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Fecha:";
             // 
-            // guna2DataGridView1
+            // label3
             // 
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            this.guna2DataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(134)))), ((int)(((byte)(78)))));
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(25, 356);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.RowHeadersWidth = 51;
-            this.guna2DataGridView1.RowTemplate.Height = 24;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(653, 205);
-            this.guna2DataGridView1.TabIndex = 5;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(167)))), ((int)(((byte)(134)))), ((int)(((byte)(78)))));
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 24;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 121);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(159, 21);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "N° Requerimiento:";
             // 
-            // guna2Button1
+            // label2
             // 
-            this.guna2Button1.BorderRadius = 5;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.Location = new System.Drawing.Point(782, 118);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button1.TabIndex = 6;
-            this.guna2Button1.Text = "Registrar";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(29, 60);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(213, 21);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Nombre del encargado:";
             // 
-            // guna2Button2
+            // btnRegistrarRequerimientoCompra
             // 
-            this.guna2Button2.BorderRadius = 5;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(41)))), ((int)(((byte)(10)))), ((int)(((byte)(6)))));
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 9F);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.Location = new System.Drawing.Point(782, 184);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(180, 45);
-            this.guna2Button2.TabIndex = 7;
-            this.guna2Button2.Text = "Anular";
+            this.btnRegistrarRequerimientoCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnRegistrarRequerimientoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegistrarRequerimientoCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegistrarRequerimientoCompra.Location = new System.Drawing.Point(676, 226);
+            this.btnRegistrarRequerimientoCompra.Name = "btnRegistrarRequerimientoCompra";
+            this.btnRegistrarRequerimientoCompra.Size = new System.Drawing.Size(168, 48);
+            this.btnRegistrarRequerimientoCompra.TabIndex = 3;
+            this.btnRegistrarRequerimientoCompra.Text = "Registrar";
+            this.btnRegistrarRequerimientoCompra.UseVisualStyleBackColor = false;
+            // 
+            // btnAnularRequerimientoCompra
+            // 
+            this.btnAnularRequerimientoCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
+            this.btnAnularRequerimientoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnAnularRequerimientoCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAnularRequerimientoCompra.Location = new System.Drawing.Point(676, 311);
+            this.btnAnularRequerimientoCompra.Name = "btnAnularRequerimientoCompra";
+            this.btnAnularRequerimientoCompra.Size = new System.Drawing.Size(168, 48);
+            this.btnAnularRequerimientoCompra.TabIndex = 4;
+            this.btnAnularRequerimientoCompra.Text = "Anular";
+            this.btnAnularRequerimientoCompra.UseVisualStyleBackColor = false;
+            // 
+            // btnNuevoRequerimientoCompra
+            // 
+            this.btnNuevoRequerimientoCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnNuevoRequerimientoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevoRequerimientoCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnNuevoRequerimientoCompra.Location = new System.Drawing.Point(676, 138);
+            this.btnNuevoRequerimientoCompra.Name = "btnNuevoRequerimientoCompra";
+            this.btnNuevoRequerimientoCompra.Size = new System.Drawing.Size(168, 48);
+            this.btnNuevoRequerimientoCompra.TabIndex = 5;
+            this.btnNuevoRequerimientoCompra.Text = "Nuevo";
+            this.btnNuevoRequerimientoCompra.UseVisualStyleBackColor = false;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(25, 452);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(611, 249);
+            this.dataGridView1.TabIndex = 6;
+            // 
+            // pcbcBotonCerrar
+            // 
+            this.pcbcBotonCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.pcbcBotonCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pcbcBotonCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pcbcBotonCerrar.Image")));
+            this.pcbcBotonCerrar.Location = new System.Drawing.Point(975, 0);
+            this.pcbcBotonCerrar.Name = "pcbcBotonCerrar";
+            this.pcbcBotonCerrar.Size = new System.Drawing.Size(25, 25);
+            this.pcbcBotonCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbcBotonCerrar.TabIndex = 32;
+            this.pcbcBotonCerrar.TabStop = false;
+            this.pcbcBotonCerrar.Click += new System.EventHandler(this.pcbcBotonCerrar_Click);
+            // 
+            // btnRegresarRequrimientoCompra
+            // 
+            this.btnRegresarRequrimientoCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnRegresarRequrimientoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresarRequrimientoCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegresarRequrimientoCompra.Location = new System.Drawing.Point(25, 742);
+            this.btnRegresarRequrimientoCompra.Name = "btnRegresarRequrimientoCompra";
+            this.btnRegresarRequrimientoCompra.Size = new System.Drawing.Size(124, 46);
+            this.btnRegresarRequrimientoCompra.TabIndex = 50;
+            this.btnRegresarRequrimientoCompra.Text = "Regresar";
+            this.btnRegresarRequrimientoCompra.UseVisualStyleBackColor = false;
+            // 
+            // btnListoRequerimientoCompra
+            // 
+            this.btnListoRequerimientoCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnListoRequerimientoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListoRequerimientoCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnListoRequerimientoCompra.Location = new System.Drawing.Point(858, 742);
+            this.btnListoRequerimientoCompra.Name = "btnListoRequerimientoCompra";
+            this.btnListoRequerimientoCompra.Size = new System.Drawing.Size(124, 46);
+            this.btnListoRequerimientoCompra.TabIndex = 49;
+            this.btnListoRequerimientoCompra.Text = "Listo";
+            this.btnListoRequerimientoCompra.UseVisualStyleBackColor = false;
+            // 
+            // btnCancelarRequerimientoCompra
+            // 
+            this.btnCancelarRequerimientoCompra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
+            this.btnCancelarRequerimientoCompra.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelarRequerimientoCompra.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCancelarRequerimientoCompra.Location = new System.Drawing.Point(676, 742);
+            this.btnCancelarRequerimientoCompra.Name = "btnCancelarRequerimientoCompra";
+            this.btnCancelarRequerimientoCompra.Size = new System.Drawing.Size(124, 46);
+            this.btnCancelarRequerimientoCompra.TabIndex = 48;
+            this.btnCancelarRequerimientoCompra.Text = "Cancelar";
+            this.btnCancelarRequerimientoCompra.UseVisualStyleBackColor = false;
             // 
             // RequerimientoCompra
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1000, 591);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.guna2Button1);
-            this.Controls.Add(this.guna2DataGridView1);
-            this.Controls.Add(this.guna2GroupBox1);
+            this.ClientSize = new System.Drawing.Size(1000, 800);
+            this.Controls.Add(this.btnRegresarRequrimientoCompra);
+            this.Controls.Add(this.btnListoRequerimientoCompra);
+            this.Controls.Add(this.btnCancelarRequerimientoCompra);
+            this.Controls.Add(this.pcbcBotonCerrar);
+            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.btnNuevoRequerimientoCompra);
+            this.Controls.Add(this.btnAnularRequerimientoCompra);
+            this.Controls.Add(this.btnRegistrarRequerimientoCompra);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.pcbxFondoMadera);
             this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "RequerimientoCompra";
             this.Text = "RequerimientoCompra";
-            this.guna2GroupBox1.ResumeLayout(false);
-            this.guna2GroupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbxFondoMadera)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbcBotonCerrar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
-        private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox1;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+ 
+        private System.Windows.Forms.PictureBox pcbxFondoMadera;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.DateTimePicker dateTimePicker1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2DataGridViewStyler guna2DataGridViewStyler1;
-        private Guna.UI2.WinForms.Guna2DataGridViewStyler guna2DataGridViewStyler2;
-        private Guna.UI2.WinForms.Guna2DataGridViewStyler guna2DataGridViewStyler3;
-        private Guna.UI2.WinForms.Guna2DataGridViewStyler guna2DataGridViewStyler4;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnRegistrarRequerimientoCompra;
+        private System.Windows.Forms.Button btnAnularRequerimientoCompra;
+        private System.Windows.Forms.Button btnNuevoRequerimientoCompra;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pcbcBotonCerrar;
+        private System.Windows.Forms.Button btnRegresarRequrimientoCompra;
+        private System.Windows.Forms.Button btnListoRequerimientoCompra;
+        private System.Windows.Forms.Button btnCancelarRequerimientoCompra;
     }
 }

@@ -27,23 +27,18 @@ namespace KialChikenApp
           
         }
 
-        private void guna2HtmlLabel1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox2_Click(object sender, EventArgs e)
+        private void pcbcBotonCerrar_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void guna2PictureBox1_MouseDown(object sender, MouseEventArgs e)
+        private void pcboxPortada_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void guna2GradientPanel1_MouseDown(object sender, MouseEventArgs e)
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);

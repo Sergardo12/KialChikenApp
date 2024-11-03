@@ -28,384 +28,346 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.gbxIngreseDatos = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.dtgvDatosComprobante = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtNombreCliente = new Guna.UI2.WinForms.Guna2TextBox();
-            this.cmbTipoDeComprobante = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.dtpFecha = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.btnRegistrar = new Guna.UI2.WinForms.Guna2Button();
-            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Nombre = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Fecha = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Hora = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Tipo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dtpHora = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.gbxBuscarComprobante = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.btnAnular = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.txtIDComprobante = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Panel1.SuspendLayout();
-            this.gbxIngreseDatos.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvDatosComprobante)).BeginInit();
-            this.gbxBuscarComprobante.SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ComprobanteDeVenta));
+            this.pcbxFondoMadera = new System.Windows.Forms.PictureBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnComprobanteCliente = new System.Windows.Forms.Button();
+            this.btnAnularComprobante = new System.Windows.Forms.Button();
+            this.btnRegistrarComprobante = new System.Windows.Forms.Button();
+            this.btnNuevoComprobante = new System.Windows.Forms.Button();
+            this.txtIdComprobante = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.txtRucCliente = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.dtpkComprobante = new System.Windows.Forms.DateTimePicker();
+            this.txtDniCliente = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNombreClienteComprobante = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.dtgvComprobantesVentas = new System.Windows.Forms.DataGridView();
+            this.pcbcBotonCerrar = new System.Windows.Forms.PictureBox();
+            this.cbxTipoComprobante = new System.Windows.Forms.ComboBox();
+            this.btnListoComprobante = new System.Windows.Forms.Button();
+            this.btnCancelarComprobante = new System.Windows.Forms.Button();
+            this.btnRegresarComprobante = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbxFondoMadera)).BeginInit();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvComprobantesVentas)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbcBotonCerrar)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Panel1
+            // pcbxFondoMadera
             // 
-            this.guna2Panel1.BackColor = System.Drawing.Color.SandyBrown;
-            this.guna2Panel1.Controls.Add(this.guna2HtmlLabel1);
-            this.guna2Panel1.Location = new System.Drawing.Point(-1, 0);
-            this.guna2Panel1.Name = "guna2Panel1";
-            this.guna2Panel1.Size = new System.Drawing.Size(1140, 88);
-            this.guna2Panel1.TabIndex = 0;
+            this.pcbxFondoMadera.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pcbxFondoMadera.Image = ((System.Drawing.Image)(resources.GetObject("pcbxFondoMadera.Image")));
+            this.pcbxFondoMadera.Location = new System.Drawing.Point(0, 0);
+            this.pcbxFondoMadera.Margin = new System.Windows.Forms.Padding(5);
+            this.pcbxFondoMadera.Name = "pcbxFondoMadera";
+            this.pcbxFondoMadera.Size = new System.Drawing.Size(1200, 900);
+            this.pcbxFondoMadera.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbxFondoMadera.TabIndex = 27;
+            this.pcbxFondoMadera.TabStop = false;
+            this.pcbxFondoMadera.MouseDown += new System.Windows.Forms.MouseEventHandler(this.pcbxFondoMadera_MouseDown);
             // 
-            // guna2HtmlLabel1
+            // groupBox1
             // 
-            this.guna2HtmlLabel1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel1.Location = new System.Drawing.Point(24, 32);
-            this.guna2HtmlLabel1.Name = "guna2HtmlLabel1";
-            this.guna2HtmlLabel1.Size = new System.Drawing.Size(420, 39);
-            this.guna2HtmlLabel1.TabIndex = 0;
-            this.guna2HtmlLabel1.Text = "COMPROBANTE DE VENTA";
-            this.guna2HtmlLabel1.Click += new System.EventHandler(this.guna2HtmlLabel1_Click);
+            this.groupBox1.Controls.Add(this.cbxTipoComprobante);
+            this.groupBox1.Controls.Add(this.btnComprobanteCliente);
+            this.groupBox1.Controls.Add(this.btnAnularComprobante);
+            this.groupBox1.Controls.Add(this.btnRegistrarComprobante);
+            this.groupBox1.Controls.Add(this.btnNuevoComprobante);
+            this.groupBox1.Controls.Add(this.txtIdComprobante);
+            this.groupBox1.Controls.Add(this.label6);
+            this.groupBox1.Controls.Add(this.txtRucCliente);
+            this.groupBox1.Controls.Add(this.label5);
+            this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.dtpkComprobante);
+            this.groupBox1.Controls.Add(this.txtDniCliente);
+            this.groupBox1.Controls.Add(this.label3);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Controls.Add(this.txtNombreClienteComprobante);
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Location = new System.Drawing.Point(80, 106);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(898, 372);
+            this.groupBox1.TabIndex = 28;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Ingresar datos";
             // 
-            // gbxIngreseDatos
+            // btnComprobanteCliente
             // 
-            this.gbxIngreseDatos.Controls.Add(this.dtpHora);
-            this.gbxIngreseDatos.Controls.Add(this.btnRegistrar);
-            this.gbxIngreseDatos.Controls.Add(this.dtpFecha);
-            this.gbxIngreseDatos.Controls.Add(this.cmbTipoDeComprobante);
-            this.gbxIngreseDatos.Controls.Add(this.txtNombreCliente);
-            this.gbxIngreseDatos.Controls.Add(this.guna2HtmlLabel4);
-            this.gbxIngreseDatos.Controls.Add(this.guna2HtmlLabel3);
-            this.gbxIngreseDatos.Controls.Add(this.guna2HtmlLabel2);
-            this.gbxIngreseDatos.Font = new System.Drawing.Font("Arial Narrow", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxIngreseDatos.ForeColor = System.Drawing.Color.Black;
-            this.gbxIngreseDatos.Location = new System.Drawing.Point(23, 108);
-            this.gbxIngreseDatos.Name = "gbxIngreseDatos";
-            this.gbxIngreseDatos.Size = new System.Drawing.Size(630, 246);
-            this.gbxIngreseDatos.TabIndex = 1;
-            this.gbxIngreseDatos.Text = "Ingrese Datos";
-            this.gbxIngreseDatos.Click += new System.EventHandler(this.guna2GroupBox1_Click);
+            this.btnComprobanteCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnComprobanteCliente.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnComprobanteCliente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnComprobanteCliente.ForeColor = System.Drawing.Color.White;
+            this.btnComprobanteCliente.Location = new System.Drawing.Point(663, 152);
+            this.btnComprobanteCliente.Name = "btnComprobanteCliente";
+            this.btnComprobanteCliente.Size = new System.Drawing.Size(169, 48);
+            this.btnComprobanteCliente.TabIndex = 15;
+            this.btnComprobanteCliente.Text = "Registrar Cliente";
+            this.btnComprobanteCliente.UseVisualStyleBackColor = false;
             // 
-            // dtgvDatosComprobante
+            // btnAnularComprobante
             // 
-            dataGridViewCellStyle7.BackColor = System.Drawing.Color.White;
-            this.dtgvDatosComprobante.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle7;
-            this.dtgvDatosComprobante.BackgroundColor = System.Drawing.Color.NavajoWhite;
-            dataGridViewCellStyle8.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle8.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle8.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle8.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dtgvDatosComprobante.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.dtgvDatosComprobante.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvDatosComprobante.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.ID,
-            this.Nombre,
-            this.Fecha,
-            this.Hora,
-            this.Tipo});
-            dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle9.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle9.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.dtgvDatosComprobante.DefaultCellStyle = dataGridViewCellStyle9;
-            this.dtgvDatosComprobante.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvDatosComprobante.Location = new System.Drawing.Point(39, 375);
-            this.dtgvDatosComprobante.Name = "dtgvDatosComprobante";
-            this.dtgvDatosComprobante.RowHeadersVisible = false;
-            this.dtgvDatosComprobante.Size = new System.Drawing.Size(1046, 262);
-            this.dtgvDatosComprobante.TabIndex = 2;
-            this.dtgvDatosComprobante.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.dtgvDatosComprobante.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.dtgvDatosComprobante.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.dtgvDatosComprobante.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.dtgvDatosComprobante.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.dtgvDatosComprobante.ThemeStyle.BackColor = System.Drawing.Color.NavajoWhite;
-            this.dtgvDatosComprobante.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvDatosComprobante.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.dtgvDatosComprobante.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.dtgvDatosComprobante.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtgvDatosComprobante.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.dtgvDatosComprobante.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvDatosComprobante.ThemeStyle.HeaderStyle.Height = 15;
-            this.dtgvDatosComprobante.ThemeStyle.ReadOnly = false;
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.Height = 22;
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.dtgvDatosComprobante.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.btnAnularComprobante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
+            this.btnAnularComprobante.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAnularComprobante.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnAnularComprobante.Location = new System.Drawing.Point(663, 310);
+            this.btnAnularComprobante.Name = "btnAnularComprobante";
+            this.btnAnularComprobante.Size = new System.Drawing.Size(169, 48);
+            this.btnAnularComprobante.TabIndex = 14;
+            this.btnAnularComprobante.Text = "Anular";
+            this.btnAnularComprobante.UseVisualStyleBackColor = false;
             // 
-            // guna2HtmlLabel2
+            // btnRegistrarComprobante
             // 
-            this.guna2HtmlLabel2.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel2.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel2.Location = new System.Drawing.Point(60, 54);
-            this.guna2HtmlLabel2.Name = "guna2HtmlLabel2";
-            this.guna2HtmlLabel2.Size = new System.Drawing.Size(112, 20);
-            this.guna2HtmlLabel2.TabIndex = 0;
-            this.guna2HtmlLabel2.Text = "Nombre Cliente";
-            this.guna2HtmlLabel2.Click += new System.EventHandler(this.guna2HtmlLabel2_Click);
+            this.btnRegistrarComprobante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(55)))), ((int)(((byte)(6)))));
+            this.btnRegistrarComprobante.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnRegistrarComprobante.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegistrarComprobante.Location = new System.Drawing.Point(663, 234);
+            this.btnRegistrarComprobante.Name = "btnRegistrarComprobante";
+            this.btnRegistrarComprobante.Size = new System.Drawing.Size(169, 48);
+            this.btnRegistrarComprobante.TabIndex = 13;
+            this.btnRegistrarComprobante.Text = "Registrar";
+            this.btnRegistrarComprobante.UseVisualStyleBackColor = false;
             // 
-            // guna2HtmlLabel3
+            // btnNuevoComprobante
             // 
-            this.guna2HtmlLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel3.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel3.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel3.Location = new System.Drawing.Point(16, 102);
-            this.guna2HtmlLabel3.Name = "guna2HtmlLabel3";
-            this.guna2HtmlLabel3.Size = new System.Drawing.Size(156, 20);
-            this.guna2HtmlLabel3.TabIndex = 1;
-            this.guna2HtmlLabel3.Text = "Tipo de Comprobante";
+            this.btnNuevoComprobante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnNuevoComprobante.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnNuevoComprobante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnNuevoComprobante.ForeColor = System.Drawing.Color.White;
+            this.btnNuevoComprobante.Location = new System.Drawing.Point(663, 79);
+            this.btnNuevoComprobante.Name = "btnNuevoComprobante";
+            this.btnNuevoComprobante.Size = new System.Drawing.Size(169, 48);
+            this.btnNuevoComprobante.TabIndex = 12;
+            this.btnNuevoComprobante.Text = "Nuevo";
+            this.btnNuevoComprobante.UseVisualStyleBackColor = false;
             // 
-            // guna2HtmlLabel4
+            // txtIdComprobante
             // 
-            this.guna2HtmlLabel4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel4.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel4.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel4.Location = new System.Drawing.Point(76, 147);
-            this.guna2HtmlLabel4.Name = "guna2HtmlLabel4";
-            this.guna2HtmlLabel4.Size = new System.Drawing.Size(96, 20);
-            this.guna2HtmlLabel4.TabIndex = 2;
-            this.guna2HtmlLabel4.Text = "Fecha y Hora";
+            this.txtIdComprobante.Location = new System.Drawing.Point(207, 45);
+            this.txtIdComprobante.Name = "txtIdComprobante";
+            this.txtIdComprobante.Size = new System.Drawing.Size(271, 28);
+            this.txtIdComprobante.TabIndex = 11;
             // 
-            // txtNombreCliente
+            // label6
             // 
-            this.txtNombreCliente.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtNombreCliente.DefaultText = "";
-            this.txtNombreCliente.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtNombreCliente.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtNombreCliente.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNombreCliente.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtNombreCliente.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreCliente.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtNombreCliente.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtNombreCliente.Location = new System.Drawing.Point(190, 54);
-            this.txtNombreCliente.Name = "txtNombreCliente";
-            this.txtNombreCliente.PasswordChar = '\0';
-            this.txtNombreCliente.PlaceholderText = "";
-            this.txtNombreCliente.SelectedText = "";
-            this.txtNombreCliente.Size = new System.Drawing.Size(248, 29);
-            this.txtNombreCliente.TabIndex = 3;
-            this.txtNombreCliente.TextChanged += new System.EventHandler(this.guna2TextBox1_TextChanged);
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(7, 45);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(185, 21);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Id del comprobante:";
             // 
-            // cmbTipoDeComprobante
+            // txtRucCliente
             // 
-            this.cmbTipoDeComprobante.BackColor = System.Drawing.Color.Transparent;
-            this.cmbTipoDeComprobante.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.cmbTipoDeComprobante.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbTipoDeComprobante.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbTipoDeComprobante.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.cmbTipoDeComprobante.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.cmbTipoDeComprobante.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.cmbTipoDeComprobante.ItemHeight = 30;
-            this.cmbTipoDeComprobante.Items.AddRange(new object[] {
-            "Boleta",
-            "Factura"});
-            this.cmbTipoDeComprobante.Location = new System.Drawing.Point(190, 102);
-            this.cmbTipoDeComprobante.Name = "cmbTipoDeComprobante";
-            this.cmbTipoDeComprobante.Size = new System.Drawing.Size(140, 36);
-            this.cmbTipoDeComprobante.TabIndex = 4;
+            this.txtRucCliente.Location = new System.Drawing.Point(207, 261);
+            this.txtRucCliente.Name = "txtRucCliente";
+            this.txtRucCliente.Size = new System.Drawing.Size(271, 28);
+            this.txtRucCliente.TabIndex = 9;
             // 
-            // dtpFecha
+            // label5
             // 
-            this.dtpFecha.Checked = true;
-            this.dtpFecha.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dtpFecha.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpFecha.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpFecha.Location = new System.Drawing.Point(190, 147);
-            this.dtpFecha.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpFecha.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpFecha.Name = "dtpFecha";
-            this.dtpFecha.Size = new System.Drawing.Size(222, 36);
-            this.dtpFecha.TabIndex = 5;
-            this.dtpFecha.Value = new System.DateTime(2024, 10, 29, 4, 50, 32, 888);
-            this.dtpFecha.ValueChanged += new System.EventHandler(this.dtpFecha_ValueChanged);
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(7, 261);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(51, 21);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "RUC:";
             // 
-            // btnRegistrar
+            // label4
             // 
-            this.btnRegistrar.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnRegistrar.BorderThickness = 1;
-            this.btnRegistrar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnRegistrar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnRegistrar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnRegistrar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnRegistrar.FillColor = System.Drawing.Color.SandyBrown;
-            this.btnRegistrar.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.btnRegistrar.ForeColor = System.Drawing.Color.Black;
-            this.btnRegistrar.Location = new System.Drawing.Point(465, 180);
-            this.btnRegistrar.Name = "btnRegistrar";
-            this.btnRegistrar.Size = new System.Drawing.Size(137, 45);
-            this.btnRegistrar.TabIndex = 3;
-            this.btnRegistrar.Text = "Registrar";
-            this.btnRegistrar.Click += new System.EventHandler(this.btnRegistrar_Click);
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(7, 324);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(67, 21);
+            this.label4.TabIndex = 7;
+            this.label4.Text = "Fecha:";
             // 
-            // ID
+            // dtpkComprobante
             // 
-            this.ID.HeaderText = "ID";
-            this.ID.Name = "ID";
+            this.dtpkComprobante.Location = new System.Drawing.Point(207, 318);
+            this.dtpkComprobante.Name = "dtpkComprobante";
+            this.dtpkComprobante.Size = new System.Drawing.Size(271, 28);
+            this.dtpkComprobante.TabIndex = 6;
             // 
-            // Nombre
+            // txtDniCliente
             // 
-            this.Nombre.HeaderText = "Nombre";
-            this.Nombre.Name = "Nombre";
-            this.Nombre.ReadOnly = true;
+            this.txtDniCliente.Location = new System.Drawing.Point(207, 206);
+            this.txtDniCliente.Name = "txtDniCliente";
+            this.txtDniCliente.Size = new System.Drawing.Size(271, 28);
+            this.txtDniCliente.TabIndex = 5;
             // 
-            // Fecha
+            // label3
             // 
-            this.Fecha.HeaderText = "Fecha";
-            this.Fecha.Name = "Fecha";
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 206);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 21);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "DNI:";
             // 
-            // Hora
+            // label2
             // 
-            this.Hora.HeaderText = "Hora";
-            this.Hora.Name = "Hora";
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 152);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(194, 21);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Tipo de comprobante";
             // 
-            // Tipo
+            // txtNombreClienteComprobante
             // 
-            this.Tipo.HeaderText = "Tipo";
-            this.Tipo.Name = "Tipo";
+            this.txtNombreClienteComprobante.Location = new System.Drawing.Point(207, 93);
+            this.txtNombreClienteComprobante.Name = "txtNombreClienteComprobante";
+            this.txtNombreClienteComprobante.Size = new System.Drawing.Size(271, 28);
+            this.txtNombreClienteComprobante.TabIndex = 1;
             // 
-            // dtpHora
+            // label1
             // 
-            this.dtpHora.Checked = true;
-            this.dtpHora.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.dtpHora.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.dtpHora.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.dtpHora.Location = new System.Drawing.Point(190, 189);
-            this.dtpHora.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.dtpHora.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.dtpHora.Name = "dtpHora";
-            this.dtpHora.Size = new System.Drawing.Size(222, 36);
-            this.dtpHora.TabIndex = 6;
-            this.dtpHora.Value = new System.DateTime(2024, 10, 29, 4, 50, 32, 888);
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 93);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(174, 21);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Nombre del cliente:";
             // 
-            // gbxBuscarComprobante
+            // label7
             // 
-            this.gbxBuscarComprobante.Controls.Add(this.txtIDComprobante);
-            this.gbxBuscarComprobante.Controls.Add(this.guna2HtmlLabel5);
-            this.gbxBuscarComprobante.Controls.Add(this.btnAnular);
-            this.gbxBuscarComprobante.Font = new System.Drawing.Font("Arial Narrow", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gbxBuscarComprobante.ForeColor = System.Drawing.Color.Black;
-            this.gbxBuscarComprobante.Location = new System.Drawing.Point(674, 176);
-            this.gbxBuscarComprobante.Name = "gbxBuscarComprobante";
-            this.gbxBuscarComprobante.Size = new System.Drawing.Size(411, 178);
-            this.gbxBuscarComprobante.TabIndex = 3;
-            this.gbxBuscarComprobante.Text = "Buscar Comprobante";
+            this.label7.AutoSize = true;
+            this.label7.BackColor = System.Drawing.Color.Transparent;
+            this.label7.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(415, 28);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(412, 40);
+            this.label7.TabIndex = 29;
+            this.label7.Text = "Comprobante de venta:";
             // 
-            // btnAnular
+            // dtgvComprobantesVentas
             // 
-            this.btnAnular.BackColor = System.Drawing.Color.LightSalmon;
-            this.btnAnular.BorderThickness = 1;
-            this.btnAnular.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnAnular.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnAnular.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnAnular.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnAnular.FillColor = System.Drawing.Color.SandyBrown;
-            this.btnAnular.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.btnAnular.ForeColor = System.Drawing.Color.Black;
-            this.btnAnular.Location = new System.Drawing.Point(136, 112);
-            this.btnAnular.Name = "btnAnular";
-            this.btnAnular.Size = new System.Drawing.Size(137, 45);
-            this.btnAnular.TabIndex = 7;
-            this.btnAnular.Text = "Anular";
-            this.btnAnular.Click += new System.EventHandler(this.btnAnular_Click);
+            this.dtgvComprobantesVentas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dtgvComprobantesVentas.Location = new System.Drawing.Point(80, 503);
+            this.dtgvComprobantesVentas.Name = "dtgvComprobantesVentas";
+            this.dtgvComprobantesVentas.RowHeadersWidth = 51;
+            this.dtgvComprobantesVentas.RowTemplate.Height = 24;
+            this.dtgvComprobantesVentas.Size = new System.Drawing.Size(898, 272);
+            this.dtgvComprobantesVentas.TabIndex = 30;
             // 
-            // guna2HtmlLabel5
+            // pcbcBotonCerrar
             // 
-            this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel5.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.Black;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(44, 60);
-            this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
-            this.guna2HtmlLabel5.Size = new System.Drawing.Size(118, 20);
-            this.guna2HtmlLabel5.TabIndex = 7;
-            this.guna2HtmlLabel5.Text = "ID Comprobante";
+            this.pcbcBotonCerrar.BackColor = System.Drawing.Color.Transparent;
+            this.pcbcBotonCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pcbcBotonCerrar.Image = ((System.Drawing.Image)(resources.GetObject("pcbcBotonCerrar.Image")));
+            this.pcbcBotonCerrar.Location = new System.Drawing.Point(1175, 0);
+            this.pcbcBotonCerrar.Name = "pcbcBotonCerrar";
+            this.pcbcBotonCerrar.Size = new System.Drawing.Size(25, 25);
+            this.pcbcBotonCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pcbcBotonCerrar.TabIndex = 31;
+            this.pcbcBotonCerrar.TabStop = false;
+            this.pcbcBotonCerrar.Click += new System.EventHandler(this.pcbcBotonCerrar_Click);
             // 
-            // txtIDComprobante
+            // cbxTipoComprobante
             // 
-            this.txtIDComprobante.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.txtIDComprobante.DefaultText = "";
-            this.txtIDComprobante.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.txtIDComprobante.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.txtIDComprobante.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIDComprobante.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.txtIDComprobante.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIDComprobante.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.txtIDComprobante.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.txtIDComprobante.Location = new System.Drawing.Point(177, 60);
-            this.txtIDComprobante.Name = "txtIDComprobante";
-            this.txtIDComprobante.PasswordChar = '\0';
-            this.txtIDComprobante.PlaceholderText = "";
-            this.txtIDComprobante.SelectedText = "";
-            this.txtIDComprobante.Size = new System.Drawing.Size(177, 29);
-            this.txtIDComprobante.TabIndex = 7;
-            this.txtIDComprobante.TextChanged += new System.EventHandler(this.txtIDComprobante_TextChanged);
+            this.cbxTipoComprobante.FormattingEnabled = true;
+            this.cbxTipoComprobante.Location = new System.Drawing.Point(207, 152);
+            this.cbxTipoComprobante.Name = "cbxTipoComprobante";
+            this.cbxTipoComprobante.Size = new System.Drawing.Size(271, 29);
+            this.cbxTipoComprobante.TabIndex = 16;
+            // 
+            // btnListoComprobante
+            // 
+            this.btnListoComprobante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnListoComprobante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListoComprobante.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnListoComprobante.Location = new System.Drawing.Point(1054, 828);
+            this.btnListoComprobante.Name = "btnListoComprobante";
+            this.btnListoComprobante.Size = new System.Drawing.Size(124, 46);
+            this.btnListoComprobante.TabIndex = 48;
+            this.btnListoComprobante.Text = "Listo";
+            this.btnListoComprobante.UseVisualStyleBackColor = false;
+            // 
+            // btnCancelarComprobante
+            // 
+            this.btnCancelarComprobante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(5)))), ((int)(((byte)(5)))));
+            this.btnCancelarComprobante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnCancelarComprobante.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnCancelarComprobante.Location = new System.Drawing.Point(858, 828);
+            this.btnCancelarComprobante.Name = "btnCancelarComprobante";
+            this.btnCancelarComprobante.Size = new System.Drawing.Size(124, 46);
+            this.btnCancelarComprobante.TabIndex = 47;
+            this.btnCancelarComprobante.Text = "Cancelar";
+            this.btnCancelarComprobante.UseVisualStyleBackColor = false;
+            // 
+            // btnRegresarComprobante
+            // 
+            this.btnRegresarComprobante.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(147)))), ((int)(((byte)(54)))));
+            this.btnRegresarComprobante.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnRegresarComprobante.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btnRegresarComprobante.Location = new System.Drawing.Point(30, 828);
+            this.btnRegresarComprobante.Name = "btnRegresarComprobante";
+            this.btnRegresarComprobante.Size = new System.Drawing.Size(124, 46);
+            this.btnRegresarComprobante.TabIndex = 46;
+            this.btnRegresarComprobante.Text = "Regresar";
+            this.btnRegresarComprobante.UseVisualStyleBackColor = false;
             // 
             // ComprobanteDeVenta
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 21F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1112, 676);
-            this.Controls.Add(this.gbxBuscarComprobante);
-            this.Controls.Add(this.dtgvDatosComprobante);
-            this.Controls.Add(this.gbxIngreseDatos);
-            this.Controls.Add(this.guna2Panel1);
+            this.ClientSize = new System.Drawing.Size(1200, 900);
+            this.Controls.Add(this.btnListoComprobante);
+            this.Controls.Add(this.btnCancelarComprobante);
+            this.Controls.Add(this.btnRegresarComprobante);
+            this.Controls.Add(this.pcbcBotonCerrar);
+            this.Controls.Add(this.dtgvComprobantesVentas);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.groupBox1);
+            this.Controls.Add(this.pcbxFondoMadera);
+            this.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(5);
             this.Name = "ComprobanteDeVenta";
             this.Text = "ComprobanteDeVenta";
             this.Load += new System.EventHandler(this.ComprobanteDeVenta_Load);
-            this.guna2Panel1.ResumeLayout(false);
-            this.guna2Panel1.PerformLayout();
-            this.gbxIngreseDatos.ResumeLayout(false);
-            this.gbxIngreseDatos.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dtgvDatosComprobante)).EndInit();
-            this.gbxBuscarComprobante.ResumeLayout(false);
-            this.gbxBuscarComprobante.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbxFondoMadera)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dtgvComprobantesVentas)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pcbcBotonCerrar)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel1;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel1;
-        private Guna.UI2.WinForms.Guna2GroupBox gbxIngreseDatos;
-        private Guna.UI2.WinForms.Guna2DataGridView dtgvDatosComprobante;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel2;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2TextBox txtNombreCliente;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
-        private Guna.UI2.WinForms.Guna2ComboBox cmbTipoDeComprobante;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpFecha;
-        private Guna.UI2.WinForms.Guna2Button btnRegistrar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Fecha;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Hora;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Tipo;
-        private Guna.UI2.WinForms.Guna2DateTimePicker dtpHora;
-        private Guna.UI2.WinForms.Guna2GroupBox gbxBuscarComprobante;
-        private Guna.UI2.WinForms.Guna2Button btnAnular;
-        private Guna.UI2.WinForms.Guna2TextBox txtIDComprobante;
-        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
+        private System.Windows.Forms.PictureBox pcbxFondoMadera;
+        private System.Windows.Forms.GroupBox groupBox1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.TextBox txtNombreClienteComprobante;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtRucCliente;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.DateTimePicker dtpkComprobante;
+        private System.Windows.Forms.TextBox txtDniCliente;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtIdComprobante;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnComprobanteCliente;
+        private System.Windows.Forms.Button btnAnularComprobante;
+        private System.Windows.Forms.Button btnRegistrarComprobante;
+        private System.Windows.Forms.Button btnNuevoComprobante;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.DataGridView dtgvComprobantesVentas;
+        private System.Windows.Forms.PictureBox pcbcBotonCerrar;
+        private System.Windows.Forms.ComboBox cbxTipoComprobante;
+        private System.Windows.Forms.Button btnListoComprobante;
+        private System.Windows.Forms.Button btnCancelarComprobante;
+        private System.Windows.Forms.Button btnRegresarComprobante;
     }
 }
