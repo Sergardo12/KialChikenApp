@@ -101,65 +101,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CartaPolleria.cs">
+    <Compile Include="INSUMOS\CompraInsumos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CartaPolleria.Designer.cs">
-      <DependentUpon>CartaPolleria.cs</DependentUpon>
-    </Compile>
-    <Compile Include="CompraInsumos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="CompraInsumos.Designer.cs">
+    <Compile Include="INSUMOS\CompraInsumos.Designer.cs">
       <DependentUpon>CompraInsumos.cs</DependentUpon>
     </Compile>
-    <Compile Include="ComprobanteDeVenta.cs">
+    <Compile Include="CLIENTE\ComprobanteDeVenta.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ComprobanteDeVenta.Designer.cs">
+    <Compile Include="CLIENTE\ComprobanteDeVenta.Designer.cs">
       <DependentUpon>ComprobanteDeVenta.cs</DependentUpon>
     </Compile>
-    <Compile Include="DatosCliente.cs">
+    <Compile Include="CLIENTE\MantenedorCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="DatosCliente.Designer.cs">
-      <DependentUpon>DatosCliente.cs</DependentUpon>
+    <Compile Include="CLIENTE\MantenedorCliente.Designer.cs">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="ExploradorDeProveedores.cs">
+    <Compile Include="INSUMOS\ExploradorDeProveedores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ExploradorDeProveedores.Designer.cs">
+    <Compile Include="INSUMOS\ExploradorDeProveedores.Designer.cs">
       <DependentUpon>ExploradorDeProveedores.cs</DependentUpon>
     </Compile>
-    <Compile Include="IngresoInsumosAlmacen.cs">
+    <Compile Include="ALMACEN\IngresoInsumosAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="IngresoInsumosAlmacen.Designer.cs">
+    <Compile Include="ALMACEN\IngresoInsumosAlmacen.Designer.cs">
       <DependentUpon>IngresoInsumosAlmacen.cs</DependentUpon>
     </Compile>
-    <Compile Include="Insumos.cs">
+    <Compile Include="PRINCIPAL\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Insumos.Designer.cs">
-      <DependentUpon>Insumos.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Login.Designer.cs">
+    <Compile Include="PRINCIPAL\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrdenPedido.cs">
+    <Compile Include="PRINCIPAL\MENU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="OrdenPedido.Designer.cs">
+    <Compile Include="PRINCIPAL\MENU.Designer.cs">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CLIENTE\OrdenPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CLIENTE\OrdenPedido.Designer.cs">
       <DependentUpon>OrdenPedido.cs</DependentUpon>
     </Compile>
-    <Compile Include="Plato.cs">
+    <Compile Include="CLIENTE\Mantenedor Plato.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Plato.Designer.cs">
-      <DependentUpon>Plato.cs</DependentUpon>
+    <Compile Include="CLIENTE\Mantenedor Plato.Designer.cs">
+      <DependentUpon>Mantenedor Plato.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -168,60 +162,56 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="RegistroAlmacen.cs">
+    <Compile Include="ALMACEN\Mantendor RegistroAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RegistroAlmacen.Designer.cs">
-      <DependentUpon>RegistroAlmacen.cs</DependentUpon>
+    <Compile Include="ALMACEN\Mantendor RegistroAlmacen.Designer.cs">
+      <DependentUpon>Mantendor RegistroAlmacen.cs</DependentUpon>
     </Compile>
-    <Compile Include="RequerimientoCompra.cs">
+    <Compile Include="INSUMOS\RequerimientoCompra.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="RequerimientoCompra.Designer.cs">
+    <Compile Include="INSUMOS\RequerimientoCompra.Designer.cs">
       <DependentUpon>RequerimientoCompra.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="CartaPolleria.resx">
-      <DependentUpon>CartaPolleria.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="CompraInsumos.resx">
+    <EmbeddedResource Include="INSUMOS\CompraInsumos.resx">
       <DependentUpon>CompraInsumos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ComprobanteDeVenta.resx">
+    <EmbeddedResource Include="CLIENTE\ComprobanteDeVenta.resx">
       <DependentUpon>ComprobanteDeVenta.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="DatosCliente.resx">
-      <DependentUpon>DatosCliente.cs</DependentUpon>
+    <EmbeddedResource Include="CLIENTE\MantenedorCliente.resx">
+      <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ExploradorDeProveedores.resx">
+    <EmbeddedResource Include="INSUMOS\ExploradorDeProveedores.resx">
       <DependentUpon>ExploradorDeProveedores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="IngresoInsumosAlmacen.resx">
+    <EmbeddedResource Include="ALMACEN\IngresoInsumosAlmacen.resx">
       <DependentUpon>IngresoInsumosAlmacen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Insumos.resx">
-      <DependentUpon>Insumos.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Login.resx">
+    <EmbeddedResource Include="PRINCIPAL\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="OrdenPedido.resx">
+    <EmbeddedResource Include="PRINCIPAL\MENU.resx">
+      <DependentUpon>MENU.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CLIENTE\OrdenPedido.resx">
       <DependentUpon>OrdenPedido.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Plato.resx">
-      <DependentUpon>Plato.cs</DependentUpon>
+    <EmbeddedResource Include="CLIENTE\Mantenedor Plato.resx">
+      <DependentUpon>Mantenedor Plato.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="RegistroAlmacen.resx">
-      <DependentUpon>RegistroAlmacen.cs</DependentUpon>
+    <EmbeddedResource Include="ALMACEN\Mantendor RegistroAlmacen.resx">
+      <DependentUpon>Mantendor RegistroAlmacen.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="RequerimientoCompra.resx">
+    <EmbeddedResource Include="INSUMOS\RequerimientoCompra.resx">
       <DependentUpon>RequerimientoCompra.cs</DependentUpon>
     </EmbeddedResource>
-    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -231,9 +221,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
@@ -247,32 +234,15 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
-  <ItemGroup>
-    <None Include="img\TikTok.png" />
-    <None Include="img\User Male.png" />
-    <None Include="img\FondoMadera.png" />
-    <None Include="img\Close.png" />
-    <None Include="img\CloseWhite.png" />
-    <None Include="img\Facebook.png" />
-    <Content Include="img\La-Granja-Real-Food-Chicken-1-Pollo-a-la-Brasa.png" />
-    <Content Include="img\La-Granja-Real-Food-Chicken-1.2-Pollo-a-la-Brasa.png" />
-    <Content Include="img\La-Granja-Real-Food-Chicken-1.4-de-Pollo-a-la-Brasa-600x600.png" />
-    <Content Include="img\La-Granja-Real-Food-Chicken-Jarra-de-Chicha-Morada.png" />
-    <Content Include="img\La-Granja-Real-Food-Chicken-Torta-de-Chocolate-600x600.png" />
-    <None Include="img\Password.png" />
-    <Content Include="img\Polleria.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Resources\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\CapaEntidad\CapaEntidad.csproj">
-      <Project>{e46ddf8c-a204-4c82-9eeb-77d9dc8cb572}</Project>
+      <Project>{bdce8244-aed9-46c5-a7c9-1ec1399a809a}</Project>
       <Name>CapaEntidad</Name>
     </ProjectReference>
-    <ProjectReference Include="..\CapaLogicaNegocio\CapaLogicaNegocio.csproj">
-      <Project>{311b9c42-3b85-4d7b-b35f-e6915ee75cbb}</Project>
-      <Name>CapaLogicaNegocio</Name>
+    <ProjectReference Include="..\CapaLogica\CapaLogica.csproj">
+      <Project>{deb5eae6-429e-45b0-b97e-690a2c01b34b}</Project>
+      <Name>CapaLogica</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
