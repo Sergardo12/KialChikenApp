@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace KialChikenApp
 {
-    public partial class MENU : Form
+    public partial class Menu : Form
     {
-        public MENU()
+        public Menu()
         {
             InitializeComponent();
+        }
+
+        private void MenuVertical_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

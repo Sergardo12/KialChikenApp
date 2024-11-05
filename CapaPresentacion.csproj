@@ -101,12 +101,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="INSUMOS\CompraInsumos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="INSUMOS\CompraInsumos.Designer.cs">
-      <DependentUpon>CompraInsumos.cs</DependentUpon>
-    </Compile>
     <Compile Include="CLIENTE\ComprobanteDeVenta.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -119,29 +113,29 @@
     <Compile Include="CLIENTE\MantenedorCliente.Designer.cs">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="INSUMOS\ExploradorDeProveedores.cs">
+    <Compile Include="INSUMOS\Mantenedor Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="INSUMOS\ExploradorDeProveedores.Designer.cs">
-      <DependentUpon>ExploradorDeProveedores.cs</DependentUpon>
+    <Compile Include="INSUMOS\Mantenedor Proveedor.Designer.cs">
+      <DependentUpon>Mantenedor Proveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="ALMACEN\IngresoInsumosAlmacen.cs">
+    <Compile Include="Mantenedor RegistroAlmacen.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="ALMACEN\IngresoInsumosAlmacen.Designer.cs">
-      <DependentUpon>IngresoInsumosAlmacen.cs</DependentUpon>
+    <Compile Include="Mantenedor RegistroAlmacen.Designer.cs">
+      <DependentUpon>Mantenedor RegistroAlmacen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PRINCIPAL\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PRINCIPAL\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="PRINCIPAL\Login.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PRINCIPAL\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
-    </Compile>
-    <Compile Include="PRINCIPAL\MENU.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PRINCIPAL\MENU.Designer.cs">
-      <DependentUpon>MENU.cs</DependentUpon>
     </Compile>
     <Compile Include="CLIENTE\OrdenPedido.cs">
       <SubType>Form</SubType>
@@ -162,38 +156,26 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <Compile Include="ALMACEN\Mantendor RegistroAlmacen.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ALMACEN\Mantendor RegistroAlmacen.Designer.cs">
-      <DependentUpon>Mantendor RegistroAlmacen.cs</DependentUpon>
-    </Compile>
     <Compile Include="INSUMOS\RequerimientoCompra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="INSUMOS\RequerimientoCompra.Designer.cs">
       <DependentUpon>RequerimientoCompra.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="INSUMOS\CompraInsumos.resx">
-      <DependentUpon>CompraInsumos.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="CLIENTE\ComprobanteDeVenta.resx">
       <DependentUpon>ComprobanteDeVenta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CLIENTE\MantenedorCliente.resx">
       <DependentUpon>MantenedorCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="INSUMOS\ExploradorDeProveedores.resx">
-      <DependentUpon>ExploradorDeProveedores.cs</DependentUpon>
+    <EmbeddedResource Include="INSUMOS\Mantenedor Proveedor.resx">
+      <DependentUpon>Mantenedor Proveedor.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="ALMACEN\IngresoInsumosAlmacen.resx">
-      <DependentUpon>IngresoInsumosAlmacen.cs</DependentUpon>
+    <EmbeddedResource Include="Mantenedor RegistroAlmacen.resx">
+      <DependentUpon>Mantenedor RegistroAlmacen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PRINCIPAL\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="PRINCIPAL\MENU.resx">
-      <DependentUpon>MENU.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CLIENTE\OrdenPedido.resx">
       <DependentUpon>OrdenPedido.cs</DependentUpon>
@@ -201,13 +183,13 @@
     <EmbeddedResource Include="CLIENTE\Mantenedor Plato.resx">
       <DependentUpon>Mantenedor Plato.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="PRINCIPAL\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ALMACEN\Mantendor RegistroAlmacen.resx">
-      <DependentUpon>Mantendor RegistroAlmacen.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="INSUMOS\RequerimientoCompra.resx">
       <DependentUpon>RequerimientoCompra.cs</DependentUpon>

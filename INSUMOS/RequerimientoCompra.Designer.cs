@@ -51,6 +51,12 @@
             this.btnAgregarInsumo = new System.Windows.Forms.Button();
             this.btnEditarInsumo = new System.Windows.Forms.Button();
             this.btnNuevoInsumo = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.txtMontoCompra = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.pcbxFondoMadera)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pcbcBotonCerrar)).BeginInit();
             this.groupBox1.SuspendLayout();
@@ -71,10 +77,10 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 19.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(499, 26);
+            this.label1.Font = new System.Drawing.Font("Arial Narrow", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(509, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(400, 33);
+            this.label1.Size = new System.Drawing.Size(322, 31);
             this.label1.TabIndex = 1;
             this.label1.Text = "Requerimientos para compra";
             // 
@@ -129,15 +135,21 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBox1);
+            this.groupBox1.Controls.Add(this.label9);
+            this.groupBox1.Controls.Add(this.txtMontoCompra);
+            this.groupBox1.Controls.Add(this.label8);
+            this.groupBox1.Controls.Add(this.comboBox1);
+            this.groupBox1.Controls.Add(this.label7);
             this.groupBox1.Controls.Add(this.cbzUnidadInsumo);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dtpkInsumo);
             this.groupBox1.Controls.Add(this.txtCantidadInsumo);
             this.groupBox1.Controls.Add(this.cbxTipoInsumo);
-            this.groupBox1.Controls.Add(this.txtNombreInsumo);
             this.groupBox1.Controls.Add(this.label6);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
+            this.groupBox1.Controls.Add(this.txtNombreInsumo);
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox1.Location = new System.Drawing.Point(31, 105);
@@ -152,7 +164,7 @@
             // cbzUnidadInsumo
             // 
             this.cbzUnidadInsumo.FormattingEnabled = true;
-            this.cbzUnidadInsumo.Location = new System.Drawing.Point(153, 203);
+            this.cbzUnidadInsumo.Location = new System.Drawing.Point(154, 200);
             this.cbzUnidadInsumo.Name = "cbzUnidadInsumo";
             this.cbzUnidadInsumo.Size = new System.Drawing.Size(255, 27);
             this.cbzUnidadInsumo.TabIndex = 9;
@@ -160,7 +172,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(19, 211);
+            this.label2.Location = new System.Drawing.Point(80, 206);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 19);
             this.label2.TabIndex = 8;
@@ -168,14 +180,14 @@
             // 
             // dtpkInsumo
             // 
-            this.dtpkInsumo.Location = new System.Drawing.Point(153, 255);
+            this.dtpkInsumo.Location = new System.Drawing.Point(154, 233);
             this.dtpkInsumo.Name = "dtpkInsumo";
             this.dtpkInsumo.Size = new System.Drawing.Size(255, 24);
             this.dtpkInsumo.TabIndex = 7;
             // 
             // txtCantidadInsumo
             // 
-            this.txtCantidadInsumo.Location = new System.Drawing.Point(153, 156);
+            this.txtCantidadInsumo.Location = new System.Drawing.Point(153, 171);
             this.txtCantidadInsumo.Name = "txtCantidadInsumo";
             this.txtCantidadInsumo.Size = new System.Drawing.Size(255, 24);
             this.txtCantidadInsumo.TabIndex = 6;
@@ -183,14 +195,14 @@
             // cbxTipoInsumo
             // 
             this.cbxTipoInsumo.FormattingEnabled = true;
-            this.cbxTipoInsumo.Location = new System.Drawing.Point(153, 110);
+            this.cbxTipoInsumo.Location = new System.Drawing.Point(153, 138);
             this.cbxTipoInsumo.Name = "cbxTipoInsumo";
             this.cbxTipoInsumo.Size = new System.Drawing.Size(255, 27);
             this.cbxTipoInsumo.TabIndex = 5;
             // 
             // txtNombreInsumo
             // 
-            this.txtNombreInsumo.Location = new System.Drawing.Point(153, 58);
+            this.txtNombreInsumo.Location = new System.Drawing.Point(153, 108);
             this.txtNombreInsumo.Name = "txtNombreInsumo";
             this.txtNombreInsumo.Size = new System.Drawing.Size(255, 24);
             this.txtNombreInsumo.TabIndex = 4;
@@ -198,7 +210,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(27, 255);
+            this.label6.Location = new System.Drawing.Point(87, 234);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(57, 19);
             this.label6.TabIndex = 3;
@@ -207,7 +219,7 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(19, 159);
+            this.label5.Location = new System.Drawing.Point(66, 171);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(81, 19);
             this.label5.TabIndex = 2;
@@ -216,7 +228,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(19, 110);
+            this.label4.Location = new System.Drawing.Point(104, 138);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(40, 19);
             this.label4.TabIndex = 1;
@@ -225,7 +237,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(19, 58);
+            this.label3.Location = new System.Drawing.Point(76, 111);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(68, 19);
             this.label3.TabIndex = 0;
@@ -234,7 +246,7 @@
             // dtgvInsumo
             // 
             this.dtgvInsumo.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dtgvInsumo.Location = new System.Drawing.Point(505, 105);
+            this.dtgvInsumo.Location = new System.Drawing.Point(493, 105);
             this.dtgvInsumo.Name = "dtgvInsumo";
             this.dtgvInsumo.RowHeadersWidth = 51;
             this.dtgvInsumo.RowTemplate.Height = 24;
@@ -288,6 +300,55 @@
             this.btnNuevoInsumo.TabIndex = 52;
             this.btnNuevoInsumo.Text = "Nuevo";
             this.btnNuevoInsumo.UseVisualStyleBackColor = false;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(153, 75);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(255, 27);
+            this.comboBox1.TabIndex = 23;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(61, 78);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(83, 19);
+            this.label7.TabIndex = 22;
+            this.label7.Text = "Proveedor:";
+            // 
+            // txtMontoCompra
+            // 
+            this.txtMontoCompra.Location = new System.Drawing.Point(154, 263);
+            this.txtMontoCompra.Name = "txtMontoCompra";
+            this.txtMontoCompra.Size = new System.Drawing.Size(112, 24);
+            this.txtMontoCompra.TabIndex = 25;
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(90, 266);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(58, 19);
+            this.label8.TabIndex = 24;
+            this.label8.Text = "Monto:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(61, 45);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(87, 19);
+            this.label9.TabIndex = 26;
+            this.label9.Text = "ID Compra:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(154, 45);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(255, 24);
+            this.textBox1.TabIndex = 27;
             // 
             // RequerimientoCompra
             // 
@@ -345,5 +406,11 @@
         private System.Windows.Forms.Button btnAgregarInsumo;
         private System.Windows.Forms.Button btnEditarInsumo;
         private System.Windows.Forms.Button btnNuevoInsumo;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.TextBox txtMontoCompra;
+        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label9;
     }
 }
